@@ -1,5 +1,6 @@
 package com.epicdelia.smackchat
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -47,7 +48,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginBtnNavClicked(view: View){
-        print(view)
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
     }
 
     fun addChanelClicked(view: View){

@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Delia Lazarescu"
+        android:text="@string/delia_lazarescu"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/white"
         android:textStyle="bold"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="68dp"
-        android:text="epicdelia@gmail.com"
+        android:text="@string/epicdelia_gmail_com"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/profileNavHeader" />

@@ -14,4 +14,8 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="please_login">Please Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="noaccount">Don\'t have an account?</string>
+    <string name="delia_lazarescu">Delia Lazarescu</string>
+    <string name="epicdelia_gmail_com">epicdelia@gmail.com</string>
 </resources>
